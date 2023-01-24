@@ -32,7 +32,7 @@ class Agent {
 		echo $this->adr."<br/>";
 	}
 }
-/* Traitement de la classe
+ Traitement de la classe
 
 		echo $pers1->id."<br/>";
 		echo $pers1->nom."<br/>";
