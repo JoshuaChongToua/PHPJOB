@@ -37,9 +37,21 @@ class Personne {
 		$this->ent = $ent;
 	}
 
-	public function __get($num) {
+	public function getNumero() {
 		return $this->num;
 	} 
+
+	public function getNom(){
+		return $this->nom;
+	}
+
+	public function getPrenom(){
+		return $this->prenom;
+	}
+
+	public function getDaten(){
+		return $this->daten;
+	}
 
 	public function afficher() {
 		echo "id : ".$this->num."<br/>";
